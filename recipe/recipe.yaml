@@ -30,7 +30,7 @@ requirements:
     - python >=${{ python_min }},<3.15
     - python-graphviz >=0.20.3,<=0.21
     - networkx >=3.5,<3.7.0
-    - numpy >=2.3.0,<2.5.0
+    - numpy >=1.26.4,<2.5.0
     - owlrl >=7.1.2,<7.7.0
     - pint >=0.24,<=0.25.3
     - rdflib >=7.1.1,<7.7.0
