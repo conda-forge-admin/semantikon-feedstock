@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: semantikon
-  version: 1.4.0
+  version: "1.4.1"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 07d20e30e0bd0b0f90cd2e318ebfe40d74cd0996603ef29de2db81e2717c1b6d
+  sha256: 62ffd7d47e3a35c74334723161e58c7c6cbe127ee21687da1fb8e659a8abe519
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - python >=${{ python_min }},<3.15
     - python-graphviz >=0.20.3,<=0.21
     - networkx >=3.5,<3.7.0
-    - numpy >=2.3.0,<2.5.0
+    - numpy >=1.26.4,<2.5.0
     - owlrl >=7.1.2,<7.7.0
     - pint >=0.24,<=0.25.3
     - rdflib >=7.1.1,<7.7.0
